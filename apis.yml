@@ -1,7 +1,30 @@
 aid: metricwire
 name: Metricwire
-description: Metricwire is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Metricwire is a real-world data collection platform for ecological momentary
+  assessment (EMA), experience sampling (ESM), and digital-health research. It
+  helps organizations measure real-world experiences to inform treatments,
+  service offerings, and policies. Researchers design studies, schedule
+  time- and event-based prompts, collect participant self-reports alongside
+  passive sensor and wearable data through native iOS and Android apps, and
+  export the results for analysis. The platform is used across clinical trials,
+  behavioral and public-health research, and patient-reported outcome programs,
+  with an emphasis on data privacy and security (ISO 27001, GDPR). A production
+  JSON API is served from api.metricwire.com and a participant/researcher
+  application from app.metricwire.com, though Metricwire does not currently
+  publish an open developer portal or machine-readable API specification.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://metricwire.com/wp-content/uploads/2016/12/mw_icon_512x512_iTunesArtwork-270x270.png
 url: https://raw.githubusercontent.com/api-evangelist/metricwire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,71 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Research
+- Data Collection
+- Ecological Momentary Assessment
+- Experience Sampling
+- Digital Health
+- Clinical Trials
+- Surveys
+- Patient Reported Outcomes
+- Mobile
+apis:
+- aid: metricwire:metricwire-api
+  name: Metricwire API
+  description: >-
+    Production JSON API served from api.metricwire.com backing the Metricwire
+    research data collection platform (studies, participants, schedules, survey
+    responses, and passive/sensor data). No public OpenAPI specification or open
+    developer documentation was discoverable at enrichment time; the host
+    responds with JSON but does not expose a discovery endpoint.
+  humanURL: https://metricwire.com/
+  baseURL: https://api.metricwire.com/
+  tags:
+  - Research
+  - Data Collection
+  - Surveys
+  - Digital Health
+  properties:
+  - url: https://metricwire.com/
+    type: Website
+  - url: https://app.metricwire.com/
+    type: Login
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/metricwire-domain-security.yml
+- type: Website
+  url: https://metricwire.com/
+- type: Login
+  url: https://app.metricwire.com/
+- type: Support
+  url: https://metricwire.com/contact-us/
+- type: TermsOfService
+  url: https://metricwire.com/terms/
+- type: PrivacyPolicy
+  url: https://metricwire.com/privacy-policy/
+- type: StatusPage
+  url: https://status.metricwire.com/
+- type: Compliance
+  url: https://metricwire.com/data-privacy-security-summary/
+- type: Conformance
+  url: conformance/metricwire-conformance.yml
+- type: Lifecycle
+  url: lifecycle/metricwire-lifecycle.yml
+- type: LLMsTxt
+  url: llms/metricwire-llms.txt
