@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://metricwire.com/data-privacy-security-summary/
+docs: https://metricwire.com/security/
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: >-
+    ISO 27001 named on the Metricwire Data Privacy & Security Summary page.
+- id: gdpr
+  conforms: true
+  evidence: >-
+    GDPR compliance stated on the Metricwire security and data privacy pages.
+- id: tls
+  conforms: true
+  evidence: >-
+    Data-in-transit encryption via TLS; live probe confirms TLSv1.3 with HSTS
+    on metricwire.com and api.metricwire.com.
+- id: oauth2
+  conforms: false
+  evidence: >-
+    No OpenAPI/Swagger or documented OAuth2 security scheme discoverable at
+    enrichment time.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No published API specification to assert problem+json error format.

@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.metricwire.com/
+status_page: https://status.metricwire.com/
+status_page_provider: UptimeRobot
+versioning:
+  scheme: unknown
+  note: >-
+    Production JSON API served from api.metricwire.com, but no public versioning
+    policy or machine-readable specification was discoverable at enrichment time.
+deprecation:
+  policy_url: null
+  note: No published deprecation or Sunset-header policy found.
+sla:
+  url: null
+deprecated_operations: []

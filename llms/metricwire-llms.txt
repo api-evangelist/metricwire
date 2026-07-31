@@ -1,0 +1,22 @@
+# Metricwire
+
+> Metricwire is a real-world data collection platform for ecological momentary assessment (EMA), experience sampling (ESM), and digital-health research. Organizations design studies, schedule time- and event-based prompts, and collect participant self-reports alongside passive sensor and wearable data through native iOS and Android apps, then export results for analysis. Used across clinical trials, behavioral and public-health research, and patient-reported outcome programs, with an emphasis on data privacy and security (ISO 27001, GDPR).
+
+## Product
+- [Metricwire](https://metricwire.com/): Company site and product overview.
+- [Application](https://app.metricwire.com/): Researcher and participant web application.
+- [API host](https://api.metricwire.com/): Production JSON API (no public specification published).
+
+## Trust & Security
+- [Security](https://metricwire.com/security/): Platform security overview.
+- [Data Privacy & Security Summary](https://metricwire.com/data-privacy-security-summary/): ISO 27001, GDPR, TLS in transit.
+- [Privacy Policy](https://metricwire.com/privacy-policy/)
+- [Participant Privacy Policy](https://metricwire.com/participant-privacy-policy/)
+- [Terms](https://metricwire.com/terms/)
+- [Status](https://status.metricwire.com/): Service status (UptimeRobot).
+
+## Support
+- [Contact](https://metricwire.com/contact-us/): Sales and support contact.
+
+## Notes
+- No open developer portal, machine-readable OpenAPI/AsyncAPI specification, first-party SDK/CLI, public MCP server, or /.well-known discovery documents were discoverable at enrichment time (2026-07-20).
